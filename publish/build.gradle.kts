@@ -29,7 +29,7 @@ val notes = if (notesFile != null) {
 
 modrinth {
     token.set(providers.environmentVariable("MODRINTH_TOKEN"))
-    projectId.set("better-ban-hammer")
+    projectId.set("betterbanhammer")
     versionNumber.set(releaseVersion)
     versionType.set(stage)
     uploadFile.set(jarFile.asFile)

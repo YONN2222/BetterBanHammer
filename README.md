@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://modrinth.com/plugin/better-ban-hammer">Modrinth</a>
+  <a href="https://modrinth.com/plugin/betterbanhammer">Modrinth</a>
   <a href="https://hangar.papermc.io/YONN2222/BetterBanHammer">Hangar</a>
   <a href="https://github.com/YONN2222/BetterBanHammer/releases">GitHub Releases</a>
 </p>
