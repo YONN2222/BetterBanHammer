@@ -1,0 +1,107 @@
+# BetterBanHammer configuration
+# Use /banhammer reload (permission betterbanhammer.reload) to apply changes without restarting.
+
+# Language file from plugins/BetterBanHammer/lang/ without the .yml ending.
+# Bundled: en, zh, es, hi, fr, ar, pt, ru, de, ja
+# Copy any file and rename it to create your own language. Messages use MiniMessage.
+language: en
+
+hammer:
+  # Item that is used as the hammer. Any item works, the mace is the default.
+  material: MACE
+  glint: true
+  unbreakable: true
+  # The hammer is a staff tool. Players without betterbanhammer.use cannot pick it up
+  # and lose it when they join or when it ends up in their inventory.
+  staff-only: true
+  # Enchantments by key with their level, for example sharpness: 5. None by default.
+  enchantments: {}
+
+defaults:
+  # Used when /banhammer is run without arguments. Examples: 30m, 1h30m, 7d, 2w, 1mo, permanent
+  duration: permanent
+  reason: Banned with the ban hammer
+
+ban:
+  essentials:
+    # Use the EssentialsX /ban and /tempban commands when EssentialsX is installed.
+    # Without EssentialsX, or when this is false, the server ban list is used.
+    enabled: true
+    # player: run the command as the player who hit, so EssentialsX checks their permissions.
+    # console: run it as the console. Hammers for one player always run as the console.
+    run-as: player
+  # Announce every ban to the whole server. When false only the banning player sees it.
+  broadcast: true
+  # The hit does no damage when it bans. Hits that do not ban are not touched.
+  cancel-damage: true
+  # Only ban when the player who hits is sneaking, a normal hit does damage instead.
+  require-sneak: false
+  # Also ban the IP address of the player.
+  ip: false
+  # Remove the hammer after it banned somebody.
+  consume: false
+  # Seconds a player has to wait between two bans. 0 switches the cooldown off.
+  cooldown: 0
+  # Operators cannot be banned with the hammer. betterbanhammer.exempt works for everybody else.
+  protect-operators: false
+  # World names where the hammer does nothing.
+  disabled-worlds: []
+  targeted:
+    # Allow /banhammer target <player> [holder]. That hammer works for anybody who holds it,
+    # without any permission, but only on the one chosen player.
+    enabled: false
+    # Remove a targeted hammer after it banned its player.
+    consume: true
+  # Write every ban to plugins/BetterBanHammer/bans.log.
+  log: true
+
+# Suggestions for tab completion in /banhammer.
+suggestions:
+  durations: [30m, 1h, 6h, 12h, 1d, 3d, 7d, 14d, 30d, permanent]
+  reasons: [Hacking, Griefing, Toxicity, Cheating, Exploiting, Spamming]
+
+# Everything that happens at the spot where a player gets banned.
+effects:
+  # Strike a lightning bolt without damage or fire.
+  lightning: false
+  firework:
+    enabled: true
+    # BALL, BALL_LARGE, STAR, BURST or CREEPER
+    type: BALL_LARGE
+    colors: ["#DFAB40", "#DF6440"]
+    fade: ["#FFFFFF"]
+    flicker: true
+    trail: true
+    # Number of fireworks (1 to 10) and how far they are scattered in blocks.
+    count: 2
+    spread: 0.6
+  particles:
+    enabled: true
+    # Particle keys, see https://minecraft.wiki/w/Particles_(Java_Edition)
+    # Particles that need extra data such as dust cannot be used.
+    bursts:
+      - type: explosion_emitter
+        count: 1
+        spread: 0.0
+        speed: 0.0
+      - type: totem_of_undying
+        count: 40
+        spread: 0.5
+        speed: 0.35
+      - type: flame
+        count: 50
+        spread: 0.4
+        speed: 0.12
+  sounds:
+    enabled: true
+    # Minecraft sound keys, see https://minecraft.wiki/w/Sounds.json
+    cues:
+      - key: entity.generic.explode
+        volume: 0.6
+        pitch: 1.0
+      - key: entity.firework_rocket.large_blast
+        volume: 1.0
+        pitch: 0.9
+      - key: item.totem.use
+        volume: 0.5
+        pitch: 1.2

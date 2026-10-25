@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Utilisation : <white>/<label> [give <player>] [durée] [raison]"
+no-permission: "<prefix><red>Tu n'as pas la permission de faire cela."
+reloaded: "<prefix><green>Configuration et langue rechargées."
+
+player-only: "<prefix><red>Seuls les joueurs peuvent tenir un marteau de bannissement. Utilise <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>Le joueur <white><player></white> n'est pas en ligne."
+invalid-duration: "<prefix><red><white><input></white> n'est pas une durée valide. Utilise par exemple <white>30m</white>, <white>7d</white>, <white>2w</white> ou <white>permanent</white>."
+hammer-received: "<prefix><gray>Tu as reçu un marteau de bannissement : <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Marteau de bannissement donné à <white><player></white>."
+hammer-name: "<gold><bold>Marteau de bannissement"
+hammer-lore:
+  - ""
+  - "<gray>Durée : <yellow><duration>"
+  - "<gray>Raison : <yellow><reason>"
+  - ""
+  - "<dark_gray>Frappe un joueur pour le bannir"
+
+exempt: "<prefix><red><white><player></white> ne peut pas être banni avec le marteau."
+ban-failed: "<prefix><red>Impossible de bannir <white><player></white>, consulte la console."
+
+cooldown: "<prefix><red>Attends encore <white><seconds></white> secondes avant le prochain bannissement."
+world-disabled: "<prefix><red>Le marteau de bannissement est désactivé dans ce monde."
+target-given: "<prefix><gray>Tu as donné à <white><player></white> un marteau de bannissement qui ne fonctionne que sur <white><target></white>."
+target-disabled: "<prefix><red>Les marteaux ciblés sont désactivés dans la configuration."
+target-only: "<prefix><red>Ce marteau de bannissement ne fonctionne que sur <white><target></white>."
+hammer-lore-target: "<gray>Fonctionne uniquement sur : <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>a été banni définitivement par</gray> <white><staff></white><gray> :</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>a été banni pour</gray> <white><duration></white> <gray>par</gray> <white><staff></white><gray> :</gray> <red><reason>"
+kick-permanent: "<red><bold>Tu es banni définitivement<newline><newline><gray>Raison : <white><reason>"
+kick-temporary: "<red><bold>Tu es banni<newline><newline><gray>Raison : <white><reason><newline><gray>Durée : <white><duration>"
+duration-permanent: "définitif"

@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>उपयोग: <white>/<label> [give <player>] [अवधि] [कारण]"
+no-permission: "<prefix><red>आपके पास इसकी अनुमति नहीं है।"
+reloaded: "<prefix><green>कॉन्फ़िगरेशन और भाषा दोबारा लोड की गई।"
+
+player-only: "<prefix><red>बैन हथौड़ा सिर्फ़ खिलाड़ी रख सकते हैं। <white>/<label> give <player></white> इस्तेमाल करें।"
+player-not-found: "<prefix><red>खिलाड़ी <white><player></white> ऑनलाइन नहीं है।"
+invalid-duration: "<prefix><red><white><input></white> एक मान्य अवधि नहीं है। उदाहरण: <white>30m</white>, <white>7d</white>, <white>2w</white> या <white>permanent</white>।"
+hammer-received: "<prefix><gray>आपको एक बैन हथौड़ा मिला: <white><duration></white>, <white><reason></white>।"
+hammer-given: "<prefix><gray><white><player></white> को बैन हथौड़ा दिया गया।"
+hammer-name: "<gold><bold>बैन हथौड़ा"
+hammer-lore:
+  - ""
+  - "<gray>अवधि: <yellow><duration>"
+  - "<gray>कारण: <yellow><reason>"
+  - ""
+  - "<dark_gray>बैन करने के लिए खिलाड़ी पर वार करें"
+
+exempt: "<prefix><red><white><player></white> को बैन हथौड़े से बैन नहीं किया जा सकता।"
+ban-failed: "<prefix><red><white><player></white> को बैन नहीं किया जा सका, कंसोल देखें।"
+
+cooldown: "<prefix><red>अगला बैन करने से पहले <white><seconds></white> सेकंड और प्रतीक्षा करें।"
+world-disabled: "<prefix><red>इस दुनिया में बैन हथौड़ा बंद है।"
+target-given: "<prefix><gray><white><player></white> को ऐसा बैन हथौड़ा दिया गया जो केवल <white><target></white> पर चलता है।"
+target-disabled: "<prefix><red>टारगेट वाले बैन हथौड़े config में बंद हैं।"
+target-only: "<prefix><red>यह बैन हथौड़ा केवल <white><target></white> पर चलता है।"
+hammer-lore-target: "<gray>केवल इस पर चलता है: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>को</gray> <white><staff></white> <gray>ने स्थायी रूप से बैन किया:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>को</gray> <white><staff></white> <gray>ने</gray> <white><duration></white> <gray>के लिए बैन किया:</gray> <red><reason>"
+kick-permanent: "<red><bold>आप स्थायी रूप से बैन हैं<newline><newline><gray>कारण: <white><reason>"
+kick-temporary: "<red><bold>आप बैन हैं<newline><newline><gray>कारण: <white><reason><newline><gray>अवधि: <white><duration>"
+duration-permanent: "स्थायी"

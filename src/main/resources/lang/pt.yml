@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Uso: <white>/<label> [give <player>] [duração] [motivo]"
+no-permission: "<prefix><red>Você não tem permissão para fazer isso."
+reloaded: "<prefix><green>Configuração e idioma recarregados."
+
+player-only: "<prefix><red>Apenas jogadores podem segurar um martelo de banimento. Use <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>O jogador <white><player></white> não está online."
+invalid-duration: "<prefix><red><white><input></white> não é uma duração válida. Use por exemplo <white>30m</white>, <white>7d</white>, <white>2w</white> ou <white>permanent</white>."
+hammer-received: "<prefix><gray>Você recebeu um martelo de banimento: <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Martelo de banimento entregue a <white><player></white>."
+hammer-name: "<gold><bold>Martelo de banimento"
+hammer-lore:
+  - ""
+  - "<gray>Duração: <yellow><duration>"
+  - "<gray>Motivo: <yellow><reason>"
+  - ""
+  - "<dark_gray>Acerte um jogador para bani-lo"
+
+exempt: "<prefix><red><white><player></white> não pode ser banido com o martelo de banimento."
+ban-failed: "<prefix><red>Não foi possível banir <white><player></white>, veja o console."
+
+cooldown: "<prefix><red>Aguarde mais <white><seconds></white> segundos antes do próximo banimento."
+world-disabled: "<prefix><red>O martelo de banimento está desativado neste mundo."
+target-given: "<prefix><gray>Você deu a <white><player></white> um martelo de banimento que só funciona em <white><target></white>."
+target-disabled: "<prefix><red>Martelos de banimento com alvo estão desativados na configuração."
+target-only: "<prefix><red>Este martelo de banimento só funciona em <white><target></white>."
+hammer-lore-target: "<gray>Funciona apenas em: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>foi banido permanentemente por</gray> <white><staff></white><gray>:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>foi banido por</gray> <white><duration></white> <gray>por</gray> <white><staff></white><gray>:</gray> <red><reason>"
+kick-permanent: "<red><bold>Você foi banido permanentemente<newline><newline><gray>Motivo: <white><reason>"
+kick-temporary: "<red><bold>Você foi banido<newline><newline><gray>Motivo: <white><reason><newline><gray>Duração: <white><duration>"
+duration-permanent: "permanente"

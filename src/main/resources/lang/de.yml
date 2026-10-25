@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Verwendung: <white>/<label> [give <player>] [Dauer] [Grund]"
+no-permission: "<prefix><red>Dafür hast du keine Berechtigung."
+reloaded: "<prefix><green>Konfiguration und Sprache neu geladen."
+
+player-only: "<prefix><red>Nur Spieler können einen Banhammer halten. Nutze <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>Spieler <white><player></white> ist nicht online."
+invalid-duration: "<prefix><red><white><input></white> ist keine gültige Dauer. Nutze zum Beispiel <white>30m</white>, <white>7d</white>, <white>2w</white> oder <white>permanent</white>."
+hammer-received: "<prefix><gray>Du hast einen Banhammer erhalten: <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Banhammer an <white><player></white> gegeben."
+hammer-name: "<gold><bold>Banhammer"
+hammer-lore:
+  - ""
+  - "<gray>Dauer: <yellow><duration>"
+  - "<gray>Grund: <yellow><reason>"
+  - ""
+  - "<dark_gray>Schlage einen Spieler, um ihn zu bannen"
+
+exempt: "<prefix><red><white><player></white> kann nicht mit dem Banhammer gebannt werden."
+ban-failed: "<prefix><red><white><player></white> konnte nicht gebannt werden, siehe Konsole."
+
+cooldown: "<prefix><red>Warte noch <white><seconds></white> Sekunden bis zum nächsten Bann."
+world-disabled: "<prefix><red>Der Banhammer ist in dieser Welt deaktiviert."
+target-given: "<prefix><gray><white><player></white> einen Banhammer gegeben, der nur bei <white><target></white> funktioniert."
+target-disabled: "<prefix><red>Zielgebundene Banhämmer sind in der Config ausgeschaltet."
+target-only: "<prefix><red>Dieser Banhammer funktioniert nur bei <white><target></white>."
+hammer-lore-target: "<gray>Funktioniert nur bei: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>wurde von</gray> <white><staff></white> <gray>dauerhaft gebannt:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>wurde von</gray> <white><staff></white> <gray>für</gray> <white><duration></white> <gray>gebannt:</gray> <red><reason>"
+kick-permanent: "<red><bold>Du wurdest dauerhaft gebannt<newline><newline><gray>Grund: <white><reason>"
+kick-temporary: "<red><bold>Du wurdest gebannt<newline><newline><gray>Grund: <white><reason><newline><gray>Dauer: <white><duration>"
+duration-permanent: "dauerhaft"

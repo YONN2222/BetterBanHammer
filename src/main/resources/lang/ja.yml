@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>使い方: <white>/<label> [give <player>] [期間] [理由]"
+no-permission: "<prefix><red>この操作を行う権限がありません。"
+reloaded: "<prefix><green>設定と言語を再読み込みしました。"
+
+player-only: "<prefix><red>BANハンマーを持てるのはプレイヤーだけです。<white>/<label> give <player></white> を使ってください。"
+player-not-found: "<prefix><red>プレイヤー <white><player></white> はオンラインではありません。"
+invalid-duration: "<prefix><red><white><input></white> は正しい期間ではありません。例: <white>30m</white>、<white>7d</white>、<white>2w</white>、<white>permanent</white>"
+hammer-received: "<prefix><gray>BANハンマーを受け取りました: <white><duration></white>、<white><reason></white>"
+hammer-given: "<prefix><gray><white><player></white> にBANハンマーを渡しました。"
+hammer-name: "<gold><bold>BANハンマー"
+hammer-lore:
+  - ""
+  - "<gray>期間: <yellow><duration>"
+  - "<gray>理由: <yellow><reason>"
+  - ""
+  - "<dark_gray>プレイヤーを叩いてBANします"
+
+exempt: "<prefix><red><white><player></white> はBANハンマーでBANできません。"
+ban-failed: "<prefix><red><white><player></white> をBANできませんでした。コンソールを確認してください。"
+
+cooldown: "<prefix><red>次のBANまであと <white><seconds></white> 秒待ってください。"
+world-disabled: "<prefix><red>このワールドではBANハンマーは無効です。"
+target-given: "<prefix><gray><white><player></white> に <white><target></white> だけに使えるBANハンマーを渡しました。"
+target-disabled: "<prefix><red>対象指定のBANハンマーは設定で無効になっています。"
+target-only: "<prefix><red>このBANハンマーは <white><target></white> にしか使えません。"
+hammer-lore-target: "<gray>対象: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>が</gray> <white><staff></white> <gray>により永久BANされました:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>が</gray> <white><staff></white> <gray>により</gray> <white><duration></white> <gray>BANされました:</gray> <red><reason>"
+kick-permanent: "<red><bold>永久BANされています<newline><newline><gray>理由: <white><reason>"
+kick-temporary: "<red><bold>BANされています<newline><newline><gray>理由: <white><reason><newline><gray>期間: <white><duration>"
+duration-permanent: "永久"

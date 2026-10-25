@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Использование: <white>/<label> [give <player>] [срок] [причина]"
+no-permission: "<prefix><red>У тебя нет прав для этого."
+reloaded: "<prefix><green>Конфигурация и язык перезагружены."
+
+player-only: "<prefix><red>Молот бана могут держать только игроки. Используй <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>Игрок <white><player></white> не в сети."
+invalid-duration: "<prefix><red><white><input></white> — неверный срок. Например: <white>30m</white>, <white>7d</white>, <white>2w</white> или <white>permanent</white>."
+hammer-received: "<prefix><gray>Ты получил молот бана: <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Молот бана выдан игроку <white><player></white>."
+hammer-name: "<gold><bold>Молот бана"
+hammer-lore:
+  - ""
+  - "<gray>Срок: <yellow><duration>"
+  - "<gray>Причина: <yellow><reason>"
+  - ""
+  - "<dark_gray>Ударь игрока, чтобы забанить его"
+
+exempt: "<prefix><red>Игрока <white><player></white> нельзя забанить молотом бана."
+ban-failed: "<prefix><red>Не удалось забанить <white><player></white>, смотри консоль."
+
+cooldown: "<prefix><red>Подожди ещё <white><seconds></white> сек. до следующего бана."
+world-disabled: "<prefix><red>Молот бана отключён в этом мире."
+target-given: "<prefix><gray>Игроку <white><player></white> выдан молот бана, работающий только на <white><target></white>."
+target-disabled: "<prefix><red>Целевые молоты бана отключены в конфиге."
+target-only: "<prefix><red>Этот молот бана работает только на <white><target></white>."
+hammer-lore-target: "<gray>Работает только на: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>был навсегда забанен игроком</gray> <white><staff></white><gray>:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>был забанен на</gray> <white><duration></white> <gray>игроком</gray> <white><staff></white><gray>:</gray> <red><reason>"
+kick-permanent: "<red><bold>Ты забанен навсегда<newline><newline><gray>Причина: <white><reason>"
+kick-temporary: "<red><bold>Ты забанен<newline><newline><gray>Причина: <white><reason><newline><gray>Срок: <white><duration>"
+duration-permanent: "навсегда"

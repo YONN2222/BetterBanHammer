@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Uso: <white>/<label> [give <player>] [duración] [motivo]"
+no-permission: "<prefix><red>No tienes permiso para hacer eso."
+reloaded: "<prefix><green>Configuración e idioma recargados."
+
+player-only: "<prefix><red>Solo los jugadores pueden llevar un martillo de ban. Usa <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>El jugador <white><player></white> no está conectado."
+invalid-duration: "<prefix><red><white><input></white> no es una duración válida. Usa por ejemplo <white>30m</white>, <white>7d</white>, <white>2w</white> o <white>permanent</white>."
+hammer-received: "<prefix><gray>Has recibido un martillo de ban: <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Martillo de ban entregado a <white><player></white>."
+hammer-name: "<gold><bold>Martillo de ban"
+hammer-lore:
+  - ""
+  - "<gray>Duración: <yellow><duration>"
+  - "<gray>Motivo: <yellow><reason>"
+  - ""
+  - "<dark_gray>Golpea a un jugador para banearlo"
+
+exempt: "<prefix><red><white><player></white> no puede ser baneado con el martillo de ban."
+ban-failed: "<prefix><red>No se pudo banear a <white><player></white>, revisa la consola."
+
+cooldown: "<prefix><red>Espera <white><seconds></white> segundos más antes del siguiente ban."
+world-disabled: "<prefix><red>El martillo de ban está desactivado en este mundo."
+target-given: "<prefix><gray>Diste a <white><player></white> un martillo de ban que solo funciona con <white><target></white>."
+target-disabled: "<prefix><red>Los martillos de ban con objetivo están desactivados en la configuración."
+target-only: "<prefix><red>Este martillo de ban solo funciona con <white><target></white>."
+hammer-lore-target: "<gray>Solo funciona con: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>fue baneado permanentemente por</gray> <white><staff></white><gray>:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>fue baneado durante</gray> <white><duration></white> <gray>por</gray> <white><staff></white><gray>:</gray> <red><reason>"
+kick-permanent: "<red><bold>Estás baneado permanentemente<newline><newline><gray>Motivo: <white><reason>"
+kick-temporary: "<red><bold>Estás baneado<newline><newline><gray>Motivo: <white><reason><newline><gray>Duración: <white><duration>"
+duration-permanent: "permanente"

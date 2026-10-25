@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>Usage: <white>/<label> [give <player>] [duration] [reason]"
+no-permission: "<prefix><red>You do not have permission to do that."
+reloaded: "<prefix><green>Configuration and language reloaded."
+
+player-only: "<prefix><red>Only players can hold a ban hammer. Use <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>Player <white><player></white> is not online."
+invalid-duration: "<prefix><red><white><input></white> is not a valid duration. Use for example <white>30m</white>, <white>7d</white>, <white>2w</white> or <white>permanent</white>."
+hammer-received: "<prefix><gray>You received a ban hammer: <white><duration></white>, <white><reason></white>."
+hammer-given: "<prefix><gray>Gave a ban hammer to <white><player></white>."
+hammer-name: "<gold><bold>Ban Hammer"
+hammer-lore:
+  - ""
+  - "<gray>Duration: <yellow><duration>"
+  - "<gray>Reason: <yellow><reason>"
+  - ""
+  - "<dark_gray>Hit a player to ban them"
+
+exempt: "<prefix><red><white><player></white> cannot be banned with the ban hammer."
+ban-failed: "<prefix><red>Could not ban <white><player></white>, see the console."
+
+cooldown: "<prefix><red>Wait <white><seconds></white> more seconds before the next ban."
+world-disabled: "<prefix><red>The ban hammer is disabled in this world."
+target-given: "<prefix><gray>Gave <white><player></white> a ban hammer that only works on <white><target></white>."
+target-disabled: "<prefix><red>Targeted ban hammers are switched off in the config."
+target-only: "<prefix><red>This ban hammer only works on <white><target></white>."
+hammer-lore-target: "<gray>Only works on: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>was permanently banned by</gray> <white><staff></white><gray>:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>was banned for</gray> <white><duration></white> <gray>by</gray> <white><staff></white><gray>:</gray> <red><reason>"
+kick-permanent: "<red><bold>You are permanently banned<newline><newline><gray>Reason: <white><reason>"
+kick-temporary: "<red><bold>You are banned<newline><newline><gray>Reason: <white><reason><newline><gray>Duration: <white><duration>"
+duration-permanent: "permanent"

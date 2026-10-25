@@ -1,0 +1,38 @@
+name: ${name}
+version: ${version}
+main: com.yonn2222.betterbanhammer.BetterBanHammer
+api-version: '1.21'
+folia-supported: true
+softdepend: [Essentials]
+authors: [${author}]
+description: ${description}
+website: ${website}
+commands:
+  banhammer:
+    description: Get the ban hammer or manage the plugin
+    usage: /<command> [give <player>] [duration] [reason]
+    aliases: [bbh]
+permissions:
+  betterbanhammer.give:
+    description: Get a ban hammer and give one to other players
+    default: op
+  betterbanhammer.target:
+    description: Create ban hammers that only work on one chosen player
+    default: op
+  betterbanhammer.use:
+    description: Ban players by hitting them with a ban hammer
+    default: op
+  betterbanhammer.reload:
+    description: Reload the configuration
+    default: op
+  betterbanhammer.exempt:
+    description: Cannot be banned with a ban hammer
+    default: false
+  betterbanhammer.*:
+    description: All BetterBanHammer permissions
+    default: op
+    children:
+      betterbanhammer.give: true
+      betterbanhammer.target: true
+      betterbanhammer.use: true
+      betterbanhammer.reload: true

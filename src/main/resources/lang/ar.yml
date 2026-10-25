@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>الاستخدام: <white>/<label> [give <player>] [المدة] [السبب]"
+no-permission: "<prefix><red>ليس لديك صلاحية لفعل ذلك."
+reloaded: "<prefix><green>تمت إعادة تحميل الإعدادات واللغة."
+
+player-only: "<prefix><red>فقط اللاعبون يمكنهم حمل مطرقة الحظر. استخدم <white>/<label> give <player></white>."
+player-not-found: "<prefix><red>اللاعب <white><player></white> غير متصل."
+invalid-duration: "<prefix><red><white><input></white> ليست مدة صالحة. مثلاً: <white>30m</white> أو <white>7d</white> أو <white>2w</white> أو <white>permanent</white>."
+hammer-received: "<prefix><gray>حصلت على مطرقة حظر: <white><duration></white>، <white><reason></white>."
+hammer-given: "<prefix><gray>تم إعطاء مطرقة حظر للاعب <white><player></white>."
+hammer-name: "<gold><bold>مطرقة الحظر"
+hammer-lore:
+  - ""
+  - "<gray>المدة: <yellow><duration>"
+  - "<gray>السبب: <yellow><reason>"
+  - ""
+  - "<dark_gray>اضرب لاعباً لحظره"
+
+exempt: "<prefix><red>لا يمكن حظر <white><player></white> بمطرقة الحظر."
+ban-failed: "<prefix><red>تعذّر حظر <white><player></white>، راجع وحدة التحكم."
+
+cooldown: "<prefix><red>انتظر <white><seconds></white> ثانية أخرى قبل الحظر التالي."
+world-disabled: "<prefix><red>مطرقة الحظر معطّلة في هذا العالم."
+target-given: "<prefix><gray>تم إعطاء <white><player></white> مطرقة حظر تعمل فقط على <white><target></white>."
+target-disabled: "<prefix><red>مطارق الحظر المخصصة معطّلة في الإعدادات."
+target-only: "<prefix><red>هذه المطرقة تعمل فقط على <white><target></white>."
+hammer-lore-target: "<gray>تعمل فقط على: <yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>تم حظره نهائياً من</gray> <white><staff></white><gray>:</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>تم حظره لمدة</gray> <white><duration></white> <gray>من</gray> <white><staff></white><gray>:</gray> <red><reason>"
+kick-permanent: "<red><bold>أنت محظور نهائياً<newline><newline><gray>السبب: <white><reason>"
+kick-temporary: "<red><bold>أنت محظور<newline><newline><gray>السبب: <white><reason><newline><gray>المدة: <white><duration>"
+duration-permanent: "دائم"

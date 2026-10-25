@@ -1,0 +1,33 @@
+prefix: "<gold><bold>BanHammer</bold> <dark_gray>»</dark_gray> "
+
+usage: "<prefix><gray>用法：<white>/<label> [give <player>] [时长] [原因]"
+no-permission: "<prefix><red>你没有权限执行此操作。"
+reloaded: "<prefix><green>配置和语言已重新加载。"
+
+player-only: "<prefix><red>只有玩家才能拿封禁锤。请使用 <white>/<label> give <player></white>。"
+player-not-found: "<prefix><red>玩家 <white><player></white> 不在线。"
+invalid-duration: "<prefix><red><white><input></white> 不是有效的时长。例如 <white>30m</white>、<white>7d</white>、<white>2w</white> 或 <white>permanent</white>。"
+hammer-received: "<prefix><gray>你获得了一把封禁锤：<white><duration></white>，<white><reason></white>。"
+hammer-given: "<prefix><gray>已将封禁锤给予 <white><player></white>。"
+hammer-name: "<gold><bold>封禁锤"
+hammer-lore:
+  - ""
+  - "<gray>时长：<yellow><duration>"
+  - "<gray>原因：<yellow><reason>"
+  - ""
+  - "<dark_gray>打中玩家即可封禁"
+
+exempt: "<prefix><red><white><player></white> 无法被封禁锤封禁。"
+ban-failed: "<prefix><red>无法封禁 <white><player></white>，请查看控制台。"
+
+cooldown: "<prefix><red>请再等待 <white><seconds></white> 秒后再进行下一次封禁。"
+world-disabled: "<prefix><red>封禁锤在此世界中已禁用。"
+target-given: "<prefix><gray>已给予 <white><player></white> 一把只对 <white><target></white> 有效的封禁锤。"
+target-disabled: "<prefix><red>指定目标的封禁锤在配置中已关闭。"
+target-only: "<prefix><red>这把封禁锤只对 <white><target></white> 有效。"
+hammer-lore-target: "<gray>仅对以下玩家有效：<yellow><target>"
+broadcast-permanent: "<prefix><white><player></white> <gray>被</gray> <white><staff></white> <gray>永久封禁：</gray> <red><reason>"
+broadcast-temporary: "<prefix><white><player></white> <gray>被</gray> <white><staff></white> <gray>封禁 </gray><white><duration></white><gray>：</gray> <red><reason>"
+kick-permanent: "<red><bold>你已被永久封禁<newline><newline><gray>原因：<white><reason>"
+kick-temporary: "<red><bold>你已被封禁<newline><newline><gray>原因：<white><reason><newline><gray>时长：<white><duration>"
+duration-permanent: "永久"
